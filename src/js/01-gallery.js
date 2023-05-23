@@ -29,6 +29,3 @@ const galleryMarkup = galleryItems.map(createGalleryItem);
 galleryEl.append(...galleryMarkup);
 
 var lightbox = new SimpleLightbox('.gallery a', { captions: true, captionDelay: 250, captionsData: 'alt' });
-
-console.log(galleryItems);
-console.log(galleryItems);
